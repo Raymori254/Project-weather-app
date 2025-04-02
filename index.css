@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #020714, #656466);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.weather-app {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+  font-size: 16px;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+#search-btn:hover {
+  background: #45a049;
+}
+
+.weather-info {
+  min-height: 200px;
+}
+
+#weather-data {
+  display: none;
+}
+
+#city-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#temp {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#weather-condition {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#loading {
+  display: none;
+  font-size: 18px;
+}
+
+#error-msg {
+  color: #ff4444;
+  margin-top: 10px;
+  font-weight: bold;
+  display: none;
+}
